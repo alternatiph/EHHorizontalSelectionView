@@ -13,7 +13,8 @@
 typedef NS_ENUM(NSUInteger, EHHorizontalSelectionViewType) {
     EHHorizontalSelectionViewDefault = 0,
     EHHorizontalSelectionViewLine = 1,
-    EHHorizontalSelectionViewRound = 2
+    EHHorizontalSelectionViewRound = 2,
+    EHHSHorizontalSelectionViewRound = 3
 };
 
 @interface EHHorizontalSelectionView () <UICollectionViewDataSource, UICollectionViewDelegate, EHHorizontalSelectionViewProtocol>
@@ -176,6 +177,9 @@ typedef NS_ENUM(NSUInteger, EHHorizontalSelectionViewType) {
             case EHHorizontalSelectionViewRound:
                 [self registerCellWithClass:[EHRoundedHorizontalViewCell class]];
                 break;
+            case EHHSHorizontalSelectionViewRound:
+                [self registerCellWithClass:[EHHSRoundedHorizontalViewCell class]];
+                break;
             default:
                 [self registerCellNib:[UINib nibWithNibName:@"EHHorizontalViewCell"  bundle:podBundle] withClass:[EHHorizontalViewCell class]];
         }
@@ -218,6 +222,9 @@ typedef NS_ENUM(NSUInteger, EHHorizontalSelectionViewType) {
                 break;
             case EHHorizontalSelectionViewRound:
                 [self registerCellWithClass:[EHRoundedHorizontalViewCell class]];
+                break;
+            case EHHSHorizontalSelectionViewRound:
+                [self registerCellWithClass:[EHHSRoundedHorizontalViewCell class]];
                 break;
             default:
                 [self registerCellNib:[UINib nibWithNibName:@"EHHorizontalViewCell"  bundle:podBundle] withClass:[EHHorizontalViewCell class]];

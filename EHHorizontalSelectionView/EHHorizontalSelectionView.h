@@ -10,6 +10,7 @@
 #import "EHHorizontalViewCell.h"
 #import "EHHorizontalLineViewCell.h"
 #import "EHRoundedHorizontalViewCell.h"
+#import "EHHSRoundedHorizontalViewCell.h"
 
 @protocol EHHorizontalSelectionViewProtocol;
 

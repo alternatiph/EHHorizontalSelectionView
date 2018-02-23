@@ -28,6 +28,7 @@
 		83FB826C1DABB66E0072984F /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FB82681DABB66E0072984F /* 2@2x.png */; };
 		83FB826D1DABB66E0072984F /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FB82691DABB66E0072984F /* 3@2x.png */; };
 		83FB826E1DABB66E0072984F /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FB826A1DABB66E0072984F /* 4@2x.png */; };
+		FA98D1E920406EE80079A3AC /* EHHSRoundedHorizontalViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA98D1E820406EE80079A3AC /* EHHSRoundedHorizontalViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		83FB82681DABB66E0072984F /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
 		83FB82691DABB66E0072984F /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
 		83FB826A1DABB66E0072984F /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4@2x.png"; sourceTree = "<group>"; };
+		FA98D1E720406EE80079A3AC /* EHHSRoundedHorizontalViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHHSRoundedHorizontalViewCell.h; sourceTree = "<group>"; };
+		FA98D1E820406EE80079A3AC /* EHHSRoundedHorizontalViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHHSRoundedHorizontalViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				835F0B291D7839D80011367A /* EHHorizontalViewCell.m */,
 				835F0B2A1D7839D80011367A /* EHRoundedHorizontalViewCell.h */,
 				835F0B2B1D7839D80011367A /* EHRoundedHorizontalViewCell.m */,
+				FA98D1E720406EE80079A3AC /* EHHSRoundedHorizontalViewCell.h */,
+				FA98D1E820406EE80079A3AC /* EHHSRoundedHorizontalViewCell.m */,
 				835F0B2C1D7839D80011367A /* xibs */,
 			);
 			name = Cells;
@@ -319,6 +324,7 @@
 				835F0AEF1D75C26F0011367A /* CCARadialGradientLayer.m in Sources */,
 				838428DF1D7591CD00DC2AB3 /* ViewController.m in Sources */,
 				83FB82651DABAB320072984F /* CustomHorizontalViewCell.m in Sources */,
+				FA98D1E920406EE80079A3AC /* EHHSRoundedHorizontalViewCell.m in Sources */,
 				835F0AF11D75C26F0011367A /* UIImage+UIImageAdditions.m in Sources */,
 				835F0B301D7839D80011367A /* EHHorizontalViewCell.m in Sources */,
 				835F0AF01D75C26F0011367A /* UIColor+UIColorAdditions.m in Sources */,
